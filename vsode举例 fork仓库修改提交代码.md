@@ -1,4 +1,4 @@
-好的！以下是将 MegaTTS3 仓库从 GitHub fork 到你的账户、在 Visual Studio Code (VS Code) 中修改 `tts/gradio_api.py` 和 `tts/infer_cli.py` 文件、添加 `MegaTTS3_Setup_Summary.md` 说明文档，并将更改推送到你的 fork 仓库的详细步骤。步骤将使用中文描述，专注于在 VS Code 中的操作，假设你已经有一个 GitHub 账户，并且在 Mac Studio M1 Max 上安装了 Git 和 VS Code。我们将修改文件以支持 MPS（Metal Performance Shaders），并包含之前生成的 Markdown 文档。步骤基于官方 MegaTTS3 仓库（假设为 `https://github.com/ByteDance/MegaTTS3`），如果你使用其他仓库，请相应调整 URL。
+以下是将 MegaTTS3 仓库从 GitHub fork 到你的账户、在 Visual Studio Code (VS Code) 中修改 `tts/gradio_api.py` 和 `tts/infer_cli.py` 文件、添加 `MegaTTS3_Setup_Summary.md` 说明文档，并将更改推送到你的 fork 仓库的详细步骤。步骤将使用中文描述，专注于在 VS Code 中的操作，假设你已经有一个 GitHub 账户，并且在 Mac Studio M1 Max 上安装了 Git 和 VS Code。我们将修改文件以支持 MPS（Metal Performance Shaders），并包含之前生成的 Markdown 文档。步骤基于官方 MegaTTS3 仓库（假设为 `https://github.com/ByteDance/MegaTTS3`），如果你使用其他仓库，请相应调整 URL。
 
 ---
 
@@ -287,6 +287,6 @@
 4. 添加 `MegaTTS3_Setup_Summary.md` 文档。
 5. 提交并推送更改到你的 fork 仓库。
 
-你的更改使 MegaTTS3 在 Mac Studio M1 Max 上高效运行，说明文档清晰记录了过程。如果遇到问题（例如 Git 冲突、认证错误），请分享详细信息，我会进一步指导。如需其他帮助（例如 HTML 格式文档、更多自定义），随时告知！
+这些更改使 MegaTTS3 在 Mac Studio M1 Max 上高效运行，说明文档清晰记录了过程。
 
 祝你在 VS Code 和 GitHub 上操作顺利！🚀
